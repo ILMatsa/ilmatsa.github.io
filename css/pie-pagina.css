@@ -1,0 +1,55 @@
+footer {
+    padding: center;
+	background: #373a36;
+    color: #ddd;
+}
+
+footer .contenedor{
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.piepagina .contenedor {
+    padding: 1% 6%;
+
+}
+
+.icono img{
+    width: 260px;
+    padding: 60px 30px;
+
+}
+
+.copyinfo {
+    padding-top: 10px;
+    flex-grow: 1;
+    font-size:100%;
+    flex-shrink: 1;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 2rem auto;
+   
+}
+
+
+.redes {
+    padding: 60px 0px;
+    flex-wrap: nowrap;
+}
+
+.redes img {
+    width: 45px;
+    margin: 3px;
+    flex-wrap: nowrap;
+
+}
+
+
+.copyright {
+	text-align: center;
+	padding-bottom: 20px;
+    font-size: 1.6rem;
+}
+
