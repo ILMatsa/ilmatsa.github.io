@@ -86,7 +86,7 @@
     }
     .pricing .box-container{
         grid-template-columns: 1fr 1fr;
-        padding: 150px 0px;
+        padding: 0px 0px;
     }
 }
 
@@ -94,7 +94,7 @@
     .pricing .box-container{
         grid-template-columns: 1fr;
     }
-    .pricing{S
+    .pricing{
         padding-top:0px;
     }
     .pricing .box-container{
