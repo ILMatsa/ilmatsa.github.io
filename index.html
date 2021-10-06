@@ -358,29 +358,30 @@
         <img src="css/images/contact-verde.svg" alt="">
     </div>
 
-    <form action="">
+    <form  action="https://formspree.io/f/xoqybjaw"
+    method="POST">
 
         <div class="titulos">
         <h1 class="heading"> Cotiza ya! </h1>
         </div>
 
         <div class="inputBox">
-            <input type="text" required>
-            <label>Nombre </label>
+            <input type="text" name="Nombre" required>
+            <label>Nombre  </label>
         </div>
 
         <div class="inputBox">
-            <input type="email" required>
+            <input type="email" name="_replyto" required>
             <label>Email</label>
         </div>
         
         <div class="inputBox">
-            <input type="text" required>
+            <input type="text" name="Nombre de la Empresa" required>
             <label>Nombre de la Empresa </label>
         </div>
         
         <div class="inputBox">    
-            <input list="cars" required>
+            <input list="cars" name="Soporte" required>
             <label>Elegi tu Soporte </label>
                 <datalist id="cars">
                     <option value="Standar" />
@@ -392,12 +393,12 @@
         </div>
 
         <div class="inputBox">
-            <input type="number" required>
+            <input type="number" name="Usuarios" required>
             <label>Cantidad de Usuarios</label>
         </div>
 
         <div class="inputBox">
-            <textarea required name="" id="" cols="30" rows="10"></textarea>
+            <textarea  name="Mensaje" id="" cols="30" rows="10"></textarea>
             <label>Mensaje</label>
         </div>
 
