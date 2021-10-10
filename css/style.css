@@ -417,7 +417,7 @@ header label{
 /* media queries  */
 
 
-@media (max-width:1034px){
+@media (max-width:1080px){
     
     section{
         padding:0 3%;
@@ -494,7 +494,7 @@ header label{
 
     .home .content p{
         font-size: 1.5rem;
-        width: 50%;
+        width: 500px;
         padding: 20px;
         text-align: center;
         margin: auto;
