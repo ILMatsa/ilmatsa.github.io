@@ -111,7 +111,6 @@ header .navbar .btn{
 
 header .navbar a:hover{
     color:#f00;
-    font-size: 1.8rem;
 
 }
 
@@ -441,10 +440,8 @@ header label{
 
     header .navbar{
         position: absolute;
-        top:86px;
+        top:100%; left: 0;
         width:100%;
-        right: 0px;
-        left: 0px;
         background:#fff;
         padding:1rem 2rem;
         border-top: .1rem solid rgba(0,0,0,.2);
