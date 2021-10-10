@@ -396,8 +396,7 @@ header label{
 
 .contacto form .inputBox input:focus ~ label,
 .contacto form .inputBox input:valid ~ label,
-.contacto form .inputBox textarea:focus ~ label,
-.contacto form .inputBox textarea:valid ~ label{
+.contacto form .inputBox textarea:focus ~ label{
     top:-.5rem;
     font-size: 1.5rem;
     color:var(--red);
