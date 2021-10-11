@@ -147,7 +147,7 @@ header label{
 }
 
 .home .image img{
-    width:40vw;
+    width:35vw;
     animation: float s linear infinite;
     padding-top: 5px;
 }
