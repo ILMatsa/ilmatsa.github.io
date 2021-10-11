@@ -472,7 +472,6 @@ header label{
 
     .home .image img{
         display:none;
-        
     }
     
     .home .content{
@@ -506,9 +505,15 @@ header label{
     }
 
     .about .column .image{
-        flex:0 
+        flex:1 1 40rem;
+        
     }
-    
+
+    .about .column .image img{
+        height: 400px;
+        margin:0 70px;
+    }
+
     .sistema{
         height:100%;
         padding:0px;
