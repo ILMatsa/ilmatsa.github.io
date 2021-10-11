@@ -140,7 +140,6 @@ header label{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:url(/css/images/home-bg-img.png) no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
