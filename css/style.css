@@ -198,10 +198,6 @@ header label{
     flex-wrap: wrap;
 }
 
-.about .column .image{
-    flex:1 1 40rem;
-}
-
 .about .column .image img{
     height: 500px;
     padding: 70px;
@@ -505,13 +501,16 @@ header label{
     }
 
     .about .column .image{
-        flex:1 1 40rem;
+        flex:0
         
     }
 
     .about .column .image img{
-        height: 400px;
-        margin:0 70px;
+        height: 200px;
+        padding: 10px;
+    }
+    .about .column .content h2{
+        padding-top: 60px;
     }
 
     .sistema{
