@@ -185,7 +185,7 @@ header label{
 }
 
 .about{
-    height: 100vh;
+    height: 100%;
     padding-top: 150px;
     padding-bottom: 150px;
     background-color: #f2f2f2;
@@ -258,7 +258,7 @@ header label{
 }
 
 .sistema .box-container .box h3{
-
+    font-size:18px;
     color:#333;
     padding: 2rem 0 1rem 0;
 }
@@ -502,7 +502,11 @@ header label{
     }
     
     .about{
-        background-position: right;
+        height: 100%;
+    }
+
+    .about .column .image{
+        flex:0 
     }
     
     .sistema{
