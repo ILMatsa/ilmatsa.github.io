@@ -97,12 +97,12 @@ header{
 }
 
 header .logo{
-    width: 20rem;
+    width: 23rem;
 }
 
 
 header .navbar a{
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     margin-left: 2rem;
     color:#0009;
     transition: all .3s linear;
@@ -140,7 +140,7 @@ header label{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:url(../images/home-bg-img.png) no-repeat;
+    background:url(/css/images/home-bg-img.png) no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
