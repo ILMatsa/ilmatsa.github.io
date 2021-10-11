@@ -551,7 +551,7 @@ header label{
 
 @media (max-width:450px){
     section{
-        padding:0 0%;
+        padding:80px 0;
     }
 
     .titulos .heading{
