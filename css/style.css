@@ -67,7 +67,7 @@ section{
 }
 
 .titulos .heading{
-    
+    padding-bottom:2rem;
     background:var(--green);
     color:transparent;
     -webkit-background-clip: text;
@@ -409,7 +409,7 @@ header label{
 
 
 @media (max-width:1080px){
-    
+
     section{
         padding:0 3%;
         padding-top: 7.5rem;
@@ -453,6 +453,9 @@ header label{
         content:'\f00d';
     }
     
+    .titulos .heading{
+        font-size: 5rem;
+    }
     .titulos .titulo-descripcion{
         font-size: 1.5rem;
         padding: 0 40px;
@@ -498,6 +501,7 @@ header label{
     
     .about{
         height: 100%;
+        padding: 0 40px;
     }
 
     .about .column .image{
@@ -511,6 +515,10 @@ header label{
     }
     .about .column .content h2{
         padding-top: 60px;
+    }
+
+    .about .column .content p{
+        padding-bottom: 60px;
     }
 
     .sistema{
