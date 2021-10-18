@@ -337,8 +337,8 @@ img{
 }
 
 .services__img{
-  width: 64px;
-  height: 64px;
+  width: 200px;
+  height: 200px;
   fill: var(--first-color);
   margin-bottom: var(--mb-2);
 }
