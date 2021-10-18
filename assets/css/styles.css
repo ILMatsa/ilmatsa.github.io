@@ -110,8 +110,8 @@ img{
 
 /*========== CLASS CSS ==========*/
 .section{
-  padding: 4rem 0 2rem;
-  margin-top: 40px;
+  margin: 1rem 0 2rem;
+  padding-top: 100px;
   width: 100%;
 }
 
@@ -393,7 +393,7 @@ img{
   margin-bottom: var(--mb-1);
 }
 
-/*========== APP ==========*/
+/* ========== APP ==========
 .app__data{
   text-align: center;
 }
@@ -417,7 +417,7 @@ img{
 }
 
 /*========== Sifras ==========*/
-.sifras{
+/* .sifras{
   color: var(--title-color);
 }
 
@@ -445,6 +445,65 @@ img{
 
 .sifras__description{
   padding: 0 1.5rem;
+} */
+
+/*========== Soportes ==========*/
+.soportes__container{
+  grid-template-columns: repeat(1, 1fr);
+  height: 100%;
+  justify-content: center;
+}
+
+.soportes__content,.soportes__content-r{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--container-color);
+  border-radius: .5rem;
+  box-shadow: 0 2px 4px rgba(3,74,40,.15);
+  padding: 0.75rem 0 3rem 0;
+  text-align: center;
+  margin-top: 50px;
+  transition: 80ms;
+}
+
+.soportes__content:hover{
+  border: solid 1px #f00;
+  transform: scale(1.01);
+}
+
+.soportes__content-r{
+  background-color: var(--first-color-alt);
+  color: #fff;
+}
+
+.soportes .soportes__content-r .recomendado{
+  color: var();
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 2;
+  border-top: 1px;
+  width: 100%;
+  height: 100%;
+}
+
+.soportes__content-r .soportes__name{
+  color: #fff;
+  margin-top: 10px;
+}
+
+.soportes__name{
+  font-weight: var(--font-semi-bold);
+  font-size: 25px;
+  color: var(--title-color);
+  padding:30px 0;
+}
+
+.soportes li{
+  font-size: var(--small-font-size);
+  padding: 15px 0;
+  margin:0 20px;
+  border-bottom: solid 1px #ddd;
 }
 
 /*========== CONTACT ==========*/
@@ -575,6 +634,10 @@ footer .contenedor{
   .contact__button{
     justify-self: center;
   }
+  .soportes__container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
 
 
@@ -597,7 +660,7 @@ footer .contenedor{
   }
 
   .section{
-    padding: 12rem 0px 6rem;
+    padding: 10rem 0px 6rem;
     margin-top: 0px;
   }
 
@@ -705,7 +768,9 @@ footer .contenedor{
   .app__container{
     column-gap: 5rem;
   }
-
+  .soportes__container{
+    grid-template-columns: repeat(4, 1fr);
+  }
   
 }
 
@@ -719,7 +784,7 @@ footer .contenedor{
 
 
 /* For tall screens on mobiles y desktop*/
-@media screen and (min-height: 721px) {
+@media screen and (min-height: 721px){
     .home__container {
       height: 640px;
     }
@@ -733,5 +798,4 @@ footer .contenedor{
     margin-right: auto;
     max-width: 1280px;
   }
-  
 }
