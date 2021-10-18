@@ -547,6 +547,7 @@ footer .contenedor{
 
 .copyinfo h3 span{
   font-size: var(--normal-font-size);
+  text-decoration: none;
 }
 
 .redes {
