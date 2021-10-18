@@ -467,7 +467,7 @@ footer .contenedor{
   display: flex;
   box-sizing: border-box;
   flex-wrap: wrap;
-  margin: 0 200px ;
+  margin: 0 50px; 
 }
 
 .icono img{
@@ -668,6 +668,7 @@ footer .contenedor{
   .app__store{
     margin: 0 var(--mb-1) 0 0;
   }
+  
 }
 
 
@@ -704,6 +705,8 @@ footer .contenedor{
   .app__container{
     column-gap: 5rem;
   }
+
+  
 }
 
 
