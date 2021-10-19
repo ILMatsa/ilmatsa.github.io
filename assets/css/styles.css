@@ -494,6 +494,7 @@ img{
   height: 100%;
 }
 
+
 .soportes__content-r .soportes__name{
   color: #fff;
   margin-top: 10px;
@@ -509,8 +510,8 @@ img{
 .soportes li{
   font-size: var(--small-font-size);
   padding: 15px 0;
-  margin:0 20px;
-  border-bottom: solid 1px #ddd;
+  margin:0 30px;
+  border-bottom: solid 1px #aaa;
 }
 
 /*========== CONTACT ==========*/
@@ -553,7 +554,7 @@ img{
   color:#666;
   margin:1.5rem 0;
   padding:.5rem 0;
-  border-bottom: .1rem solid rgba(0,0,0,.1);
+  border-bottom: solid 1px #aaa5;
   text-transform: none;
 }
 
@@ -582,6 +583,7 @@ img{
 .contact-form__container input:focus,
 .contact-form__container input[type]:focus{
   outline: 0 none;
+  font-family:var(--body-font);
 }
 
 .contact-form__container .button{
