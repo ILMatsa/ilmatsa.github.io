@@ -314,6 +314,52 @@
                     </div>
                 </div>
             </section>
+
+            
+            <!--========== CONTACT US - FORM ==========-->
+            <section class="contact-form section" id="contact-form">
+                <div class="contact-form__container bd-container ">
+
+                    <div class="image">
+                        <img src="css/images/contact-verde.svg" alt="">
+                    </div>
+                
+                    <form action="">
+                        
+                        <div class="inputBox">
+                            <input type="text" required>
+                            <label>Nombre </label>
+                        </div>
+                        <div class="inputBox">
+                            <input type="email" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" required>
+                            <label>Empresa </label>
+                        </div>
+                        <div class="inputBox">    
+                            <input list="cars" required>
+                            <label>Soporte </label>
+                                <datalist id="cars">
+                                    <option value="Standar" />
+                                    <option value="Nivel 1" />
+                                    <option value="Nivel 2" />
+                                    <option value="Personalizado"/>
+                                </datalist>   
+                        </div>
+                        <div class="inputBox">
+                            <input type="number" required>
+                            <label>Usuarios</label>
+                        </div>
+                        <!-- <div class="inputBox">
+                            <textarea required name="" id="" cols="30" rows="10"></textarea>
+                            <label>Mensaje</label>
+                        </div> -->
+                        <input type="submit" class="button" value="Enviar ">
+                    </form>
+                </div>
+            </section>
         </main>
 
         <!--========== FOOTER ==========-->

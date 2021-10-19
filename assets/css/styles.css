@@ -522,6 +522,65 @@ img{
   margin-bottom: var(--mb-3);
 }
 
+/*========== CONTACT-FOMR ==========*/
+.contact-form__container form{
+  flex:1 1 40rem;
+  padding:2rem 3rem;
+  border:.1rem solid rgba(0,0,0,.2);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  border-radius: .5rem;
+
+}
+
+.contact-form__container form .inputBox{
+  position: relative;
+}
+
+.contact-form__container form .inputBox input, 
+.contact-form__container form .inputBox textarea{
+  border: 0px;
+  width:100%;
+  background:none;
+  color:#666;
+  margin:1.5rem 0;
+  padding:.5rem 0;
+  border-bottom: .1rem solid rgba(0,0,0,.1);
+  text-transform: none;
+}
+
+.contact-form__container form .inputBox textarea{
+  resize: none;
+  height: 13rem;
+}
+
+.contact-form__container form .inputBox label{
+  position: absolute;
+  top:1.7rem; 
+  left:0;
+  color:#666;
+  transition: .2s linear;
+}
+
+.contact-form__container form .inputBox input:focus ~ label,
+.contact-form__container form .inputBox input:valid ~ label{
+/* .contact-form__container form .inputBox textarea:focus ~ label,
+.contact-form__container form .inputBox textarea:valid ~ label{ */
+  top:-.5rem;
+  color:var(--first-color-alt);
+  outline: 0 none;
+}
+
+.contact-form__container input:focus,
+.contact-form__container input[type]:focus{
+  outline: 0 none;
+}
+
+.contact-form__container .button{
+  font-family:var(--body-font);
+  border:none;
+  box-shadow: none;
+}
+
 /*========== FOOTER ==========*/
 footer {
   padding: center;
