@@ -523,6 +523,10 @@ img{
 }
 
 /*========== CONTACT-FOMR ==========*/
+.contact-form__container{
+  margin-bottom: 100px;
+}
+
 .contact-form__container .img{
   margin-bottom: 100px;
   width:100%;
