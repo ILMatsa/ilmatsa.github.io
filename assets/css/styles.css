@@ -112,7 +112,7 @@ img{
 
 /*========== CLASS CSS ==========*/
 .section{
-  margin: 1rem 0 2rem;
+  margin: 1rem 0 2rem 0;
   padding-top: 100px;
   width: 100%;
 }
@@ -523,8 +523,13 @@ img{
 }
 
 /*========== CONTACT-FOMR ==========*/
+.contact-form__container .img{
+  margin-bottom: 100px;
+  width:100%;
+}
+
 .contact-form__container form{
-  flex:1 1 40rem;
+  width: 100%;
   padding:2rem 3rem;
   border:.1rem solid rgba(0,0,0,.2);
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
@@ -580,6 +585,7 @@ img{
   border:none;
   box-shadow: none;
 }
+
 
 /*========== FOOTER ==========*/
 footer {
@@ -703,8 +709,16 @@ footer .contenedor{
   .soportes__container{
     grid-template-columns: repeat(2, 1fr);
   }
-
+  .contact-form__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+    padding-top: -100px;
+  }
 }
+ 
 
 
 
@@ -798,7 +812,22 @@ footer .contenedor{
     margin: 0 var(--mb-1) 0 0;
   }
   
+  .contact-form__container form{
+    width: 40%;
+  }
+
+  .contact-form__container .img{
+    flex:1 1 15rem;
+    margin-bottom: 0px;
+  }
+
+  .contact-form__container .img img{
+    padding :3rem 3rem 0rem 0;
+    width:100%;
+  }
+
 }
+
 
 
 
