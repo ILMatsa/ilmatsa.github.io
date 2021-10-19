@@ -645,7 +645,7 @@ footer .contenedor{
 .copyright {
   text-align: center;
   padding-bottom: 20px;
-  font-size:var(--normal-font-size);
+  font-size:var(--smaller-font-size);
 }
 
 
