@@ -258,7 +258,7 @@ img{
 
 /*========== HOME ==========*/
 .home{
-  height: 100vh;
+  height: 780px;
   
 }
 
@@ -313,6 +313,7 @@ img{
 }
 
 /*========== ABOUT ==========*/
+
 .about__data{
   text-align: center;
   
@@ -329,6 +330,11 @@ img{
 }
 
 /*========== SERVICES ==========*/
+.services{
+  background-color: var(--second-color);
+  height: 100vh;
+}
+
 .services__container{
   row-gap: 2.5rem;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
