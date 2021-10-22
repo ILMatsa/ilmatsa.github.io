@@ -258,7 +258,7 @@ img{
 
 /*========== HOME ==========*/
 .home{
-  height: 780px;
+  height: 85vh;
   
 }
 
@@ -487,10 +487,6 @@ img{
   transition: .8s;
 }
 
-.soportes__content:hover{
-  border: solid 1px #f00;
-  transform: scale(1.0);
-}
 
 .soportes__content-r{
   background-color: var(--first-color-alt);
@@ -692,7 +688,8 @@ footer .contenedor{
     }
 
     .home{
-        padding-top: 0px
+        padding-top: 0px;
+        height: 780px;
     }
 
     
@@ -822,14 +819,21 @@ footer .contenedor{
     margin-top: var(--mb-6);
   }
 
+  
+
   .menu__container{
     grid-template-columns: repeat(3, 210px);
     column-gap: 3rem;
   }
     
-  .menu__content{
+  .menu__container .menu__content{
     padding: 1.5rem;
     transition: .2s linear;
+  }
+
+  .menu__container .menu__content:hover{
+    transform: scale(1.07);
+    background: #048654;
   }
     
   .menu__img{
