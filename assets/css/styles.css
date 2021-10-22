@@ -876,7 +876,7 @@ footer .contenedor{
   }
 
   .menu__container{
-    grid-template-columns: repeat(4, 210px);
+    grid-template-columns: repeat(5, 210px);
     column-gap: 4rem;
   }
 
