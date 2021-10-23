@@ -67,7 +67,7 @@ html{
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
   --title-color: #F1F3F2;
-  --second-color:#1D2521;
+  --second-color:#27302c86;
   --text-color: #C7D1CC;
   --body-color: #1D2521;
   --container-color: #27302C;
@@ -446,7 +446,7 @@ img{
 }
 
 .menu__container{
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   justify-content: center;
   
 }
@@ -903,9 +903,6 @@ footer .contenedor{
   height: 100vh;
 }
 
-  .services{
-    padding-bottom: 200px;
-  }
 
   .services__container{
     row-gap: 2.5rem;
@@ -1026,5 +1023,10 @@ footer .contenedor{
     margin-left: auto;
     margin-right: auto;
     max-width: 1280px;
+  }
+
+  .menu__container{
+    grid-template-columns: repeat(5, 210px);
+    column-gap: 4rem;
   }
 }
