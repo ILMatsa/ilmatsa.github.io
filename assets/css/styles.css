@@ -306,6 +306,9 @@ img{
 }
 
 /*========== ABOUT ==========*/
+.about{
+  height: 100vh;
+}
 
 .about__data{
   text-align: center;
