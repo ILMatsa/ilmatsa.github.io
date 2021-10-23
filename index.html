@@ -328,19 +328,19 @@
                     <form autocomplete="off" class="formulario" action="">
                         
                         <div class="inputBox">
-                            <input type="text" name="nombre" id="nombre" >
+                            <input required type="text" name="nombre" id="nombre" >
                             <label>Nombre </label>
                         </div>
-                        <div class="inputBox">
-                            <input type="email" name="email" id="email" >
+                        <div class="inputBox" >
+                            <input required type="email" name="email" id="email" >
                             <label>Email</label>
                         </div>
                         <div class="inputBox">
-                            <input type="text" name="empresa" id="empresa" >
+                            <input required type="text" name="empresa" id="empresa" >
                             <label>Empresa </label>
                         </div>
                         <div class="inputBox">    
-                            <input list="cars" name="soporte" id="soporte" >
+                            <input required list="cars" name="soporte" id="soporte" >
                             <label>Soporte </label>
                                 <datalist id="cars">
                                     <option value="Standar" />
@@ -350,14 +350,14 @@
                                 </datalist>   
                         </div>
                         <div class="inputBox">
-                            <input type="number" name="usuarios" id="usuarios" >
+                            <input required type="number" name="usuarios" id="usuarios" >
                             <label>Usuarios</label>
                         </div>
-                        <div class="inputBox">
+                        <!-- <div class="inputBox">
                             <textarea requireds name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
                             <label>Mensaje</label>
-                        </div>
-                        <input type="submit" class="button" name="btn-enviar" id="btn-enviar" value="Enviar ">
+                        </div> -->
+                        <input  type="submit" class="button" name="btn-enviar" id="btn-enviar" value="Enviar ">
                         <div class="resultado"></div>
                     </form>
                 </div>
