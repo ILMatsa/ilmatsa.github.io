@@ -325,22 +325,22 @@
                         <img src="/assets/img/contact-verde.svg" alt="">
                     </div>
                 
-                    <form autocapitalize="off" action="">
+                    <form autocomplete="off" class="formulario" action="">
                         
                         <div class="inputBox">
-                            <input type="text" required>
+                            <input type="text" name="nombre" id="nombe" >
                             <label>Nombre </label>
                         </div>
                         <div class="inputBox">
-                            <input type="email" required>
+                            <input type="email" name="email" id="email" >
                             <label>Email</label>
                         </div>
                         <div class="inputBox">
-                            <input type="text" required>
+                            <input type="text" name="empresa" id="empresa" >
                             <label>Empresa </label>
                         </div>
                         <div class="inputBox">    
-                            <input list="cars" required>
+                            <input list="cars" name="soporte" id="soporte" >
                             <label>Soporte </label>
                                 <datalist id="cars">
                                     <option value="Standar" />
@@ -350,14 +350,15 @@
                                 </datalist>   
                         </div>
                         <div class="inputBox">
-                            <input type="number" required>
+                            <input type="number" name="usuarios" id="usuarios" >
                             <label>Usuarios</label>
                         </div>
-                        <!-- <div class="inputBox">
-                            <textarea required name="" id="" cols="30" rows="10"></textarea>
+                        <div class="inputBox">
+                            <textarea requireds name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
                             <label>Mensaje</label>
-                        </div> -->
-                        <input type="submit" class="button" value="Enviar ">
+                        </div>
+                        <input type="submit" class="button" name="btn-enviar" id="btn-enviar" value="Enviar ">
+                        <div class="resultado"></div>
                     </form>
                 </div>
             </section>

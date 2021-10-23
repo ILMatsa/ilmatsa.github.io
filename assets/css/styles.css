@@ -570,7 +570,7 @@ img{
 
 .contact-form__container form .inputBox textarea{
   resize: none;
-  height: 13rem;
+  height: 5rem;
 }
 
 .contact-form__container form .inputBox label{
@@ -582,16 +582,18 @@ img{
 }
 
 .contact-form__container form .inputBox input:focus ~ label,
-.contact-form__container form .inputBox input:valid ~ label{
-/* .contact-form__container form .inputBox textarea:focus ~ label,
-.contact-form__container form .inputBox textarea:valid ~ label{ */
+.contact-form__container form .inputBox input:valid ~ label,
+.contact-form__container form .inputBox textarea:focus ~ label,
+.contact-form__container form .inputBox textarea:valid ~ label{
   top:-.5rem;
   color:var(--first-color-alt);
   outline: 0 none;
 }
 
 .contact-form__container input:focus,
-.contact-form__container input[type]:focus{
+.contact-form__container input[type]:focus,
+.contact-form__container form .inputBox textarea:focus,
+.contact-form__container form .inputBox textarea[type]:focus{
   outline: 0 none;
   font-family:var(--body-font);
 }
