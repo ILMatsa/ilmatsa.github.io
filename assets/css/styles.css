@@ -306,9 +306,7 @@ img{
 }
 
 /*========== ABOUT ==========*/
-.about{
-  height: 100vh;
-}
+
 
 .about__data{
   text-align: center;
@@ -359,6 +357,11 @@ img{
 }
 
 /*========== MENU ==========*/
+.menu{
+  height: 100%;
+  margin-bottom: 200px;
+}
+
 .menu__container{
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
@@ -466,14 +469,15 @@ img{
 
 }
 
-.soportes__content,.soportes__content-r{
+.soportes__content,
+.soportes__content-r{
   position: relative;
   display: flex;
   flex-direction: column;
   background-color: var(--container-color);
   border-radius: .5rem;
   box-shadow: 0 2px 4px rgba(3,74,40,.15);
-  padding: 0.75rem 0 3rem 0;
+  padding: 0.75rem 0 2rem 0;
   text-align: center;
   margin-top: 50px;
   transition: .8s;
@@ -512,8 +516,8 @@ img{
 .soportes li{
   font-size: var(--small-font-size);
   padding: 15px 0;
-  margin:0 30px;
-  border-bottom: solid 1px #aaa;
+  margin:0 40px;
+  border-bottom: solid 1px #ccca;
 }
 
 /*========== CONTACT ==========*/
@@ -806,6 +810,10 @@ footer .contenedor{
     padding-top: 250px;
     /* text-align: center; */
   }
+
+  .about{
+  height: 100vh;
+}
 
   .services{
     padding-bottom: 200px;
