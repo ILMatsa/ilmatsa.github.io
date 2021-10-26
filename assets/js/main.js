@@ -23,25 +23,25 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
-const sections = document.querySelectorAll('section[id]')
+// /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+// const sections = document.querySelectorAll('section[id]')
 
-function scrollActive(){
-    const scrollY = window.pageYOffset
+// function scrollActive(){
+//     const scrollY = window.pageYOffset
 
-    sections.forEach(current =>{
-        const sectionHeight = current.offsetHeight
-        const sectionTop = current.offsetTop - 50;
-        sectionId = current.getAttribute('id')
+//     sections.forEach(current =>{
+//         const sectionHeight = current.offsetHeight
+//         const sectionTop = current.offsetTop - 50;
+//         sectionId = current.getAttribute('id')
 
-        if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
-        }else{
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
-        }
-    })
-}
-window.addEventListener('scroll', scrollActive)
+//         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
+//             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
+//         }else{
+//             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
+//         }
+//     })
+// }
+// window.addEventListener('scroll', scrollActive)
 
 // /*==================== CHANGE BACKGROUND HEADER ====================*/ 
 // function scrollHeader(){
@@ -106,37 +106,6 @@ sr.reveal(`.home__data, .home__img,
     interval: 100
 })
 
-/*==================== VALIACION FORM ====================*/
-const nombre = document.getElementById("nombre").value;
-const email = document.getElementById("email").value;
-const empresa = document.getElementById("empresa").value;
-const soporte = document.getElementById("soporte").value;
-const usuarios = document.getElementById("usuarios").value;
-const mensaje = document.getElementById("mensaje").value;
-const boton = document.getElementById("btn-enviar");
-const resultado = document.getElementById(".resultado")
 
-boton.addEventListener("click",(e)=>{
-    e.preventDefault();
-    validarCampos();
-    let error = validarCampos();
-
-    if (error[0]){
-        resultado.innerHTML = error[1];
-    } else{
-        resultado.innerHTML = "Cotizacion enviada correctamente";
-    }
-})
-
-const validarCampos = () =>{
-    let error = [];
-    if (nombre.length < 3) {
-        error[0] = true;
-        error[1] = "Escriba su nombre por favor"
-        return error;
-    }else {
-        
-    }
-}
 
 

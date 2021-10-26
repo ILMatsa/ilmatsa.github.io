@@ -337,22 +337,22 @@
                         <img src="/assets/img/contact-verde.svg" alt="">
                     </div>
                 
-                    <form autocomplete="off" class="formulario" id="formulario" action="" onsubmit="return validar();">
+                    <form autocomplete="off" class="formulario" action="" onsubmit="return validar();">
                         
                         <div class="inputBox">
-                            <input type="text" name="nombre" id="nombre">
+                            <input type="text" name="nombre" id="nombre"  required>
                             <label>Nombre *</label>
                         </div>
                         <div class="inputBox" >
-                            <input class="email" type="email" name="email" id="email" >
+                            <input class="email" type="text" name="email" id="email" required >
                             <label>Email *</label>
                         </div>
                         <div class="inputBox">
-                            <input type="text" name="empresa" id="empresa" >
+                            <input type="text" name="empresa" id="empresa"  required>
                             <label>Tu Empresa </label>
                         </div>
                         <div class="inputBox">    
-                            <input list="cars" name="soporte" id="soporte" >
+                            <input list="cars" name="soporte" id="soporte" required >
                             <label>Soporte </label>
                                 <datalist id="cars">
                                     <option value="Standar" />
@@ -362,7 +362,7 @@
                                 </datalist>   
                         </div>
                         <div class="inputBox">
-                            <input type="text" name="usuarios" id="usuarios" >
+                            <input type="text" name="usuarios" id="usuarios"  required>
                             <label>Usuarios *</label>
                         </div>
                         <p class="textsForm">*(Campos obligatorios)</p>
