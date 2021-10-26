@@ -661,9 +661,7 @@ img{
 }
 
 .contact-form__container form .inputBox input:focus ~ label,
-.contact-form__container form .inputBox input:valid ~ label,
-.contact-form__container form .inputBox textarea:focus ~ label,
-.contact-form__container form .inputBox textarea:valid ~ label{
+.contact-form__container form .inputBox textarea:focus ~ label{
   top:-.5rem;
   color:var(--first-color-alt);
   outline: 0 none;
