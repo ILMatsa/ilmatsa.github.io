@@ -189,7 +189,7 @@ img{
 .nav__link, .nav__logo, .nav__toggle{
   color: var(--text-color);
   font-weight: var(--font-medium);
-}
+} 
 
 .nav__logo img{
   width: 150px;
@@ -661,6 +661,7 @@ img{
 }
 
 .contact-form__container form .inputBox input:focus ~ label,
+.contact-form__container form .inputBox input:valid ~ label,
 .contact-form__container form .inputBox textarea:focus ~ label{
   top:-.5rem;
   color:var(--first-color-alt);
@@ -668,6 +669,7 @@ img{
 }
 
 .contact-form__container input:focus,
+.contact-form__container input:valid,
 .contact-form__container input[type]:focus,
 .contact-form__container form .inputBox textarea:focus,
 .contact-form__container form .inputBox textarea[type]:focus{
@@ -681,6 +683,10 @@ img{
   box-shadow: none;
 }
 
+.textsForm{
+  margin: 8px 0 40px 0;
+  font-size: .7rem;
+}
 
 /*========== FOOTER ==========*/
 footer {
@@ -775,7 +781,7 @@ footer .contenedor{
   .home__container,
   .about__container,
   .app__container{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr 1.5fr;
     align-items: center;
   }
 

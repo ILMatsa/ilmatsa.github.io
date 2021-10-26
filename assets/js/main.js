@@ -51,13 +51,13 @@ window.addEventListener('scroll', scrollActive)
 // }
 // window.addEventListener('scroll', scrollHeader)
 
-// /*==================== SHOW SCROLL TOP ====================*/ 
-// function scrollTop(){
-//     const scrollTop = document.getElementById('scroll-top');
-//     // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
-//     if(this.scrollY >= 560) scrollTop.classList.add('show-scroll'); else scrollTop.classList.remove('show-scroll')
-// }
-// window.addEventListener('scroll', scrollTop)
+/*==================== SHOW SCROLL TOP ====================*/ 
+function scrollTop(){
+    const scrollTop = document.getElementById('scroll-top');
+    // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
+    if(this.scrollY >= 560) scrollTop.classList.add('show-scroll'); else scrollTop.classList.remove('show-scroll')
+}
+window.addEventListener('scroll', scrollTop)
 
 // /*==================== DARK LIGHT THEME ====================*/ 
 // const themeButton = document.getElementById('theme-button')
@@ -79,7 +79,7 @@ window.addEventListener('scroll', scrollActive)
 //   themeButton.classList[selectedIcon === 'bx-moon' ? 'add' : 'remove'](iconTheme)
 // }
 
-// // Activate / deactivate the theme manually with the button
+// Activate / deactivate the theme manually with the button
 // themeButton.addEventListener('click', () => {
 //     // Add or remove the dark / icon theme
 //     document.body.classList.toggle(darkTheme)

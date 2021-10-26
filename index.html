@@ -337,19 +337,19 @@
                         <img src="/assets/img/contact-verde.svg" alt="">
                     </div>
                 
-                    <form autocomplete="off" class="formulario" action="">
+                    <form autocomplete="off" class="formulario" id="formulario" action="" onsubmit="return validar();">
                         
                         <div class="inputBox">
-                            <input type="text" name="nombre" id="nombre" >
-                            <label>Nombre </label>
+                            <input type="text" name="nombre" id="nombre">
+                            <label>Nombre *</label>
                         </div>
                         <div class="inputBox" >
                             <input class="email" type="email" name="email" id="email" >
-                            <label>Email</label>
+                            <label>Email *</label>
                         </div>
                         <div class="inputBox">
                             <input type="text" name="empresa" id="empresa" >
-                            <label>Empresa </label>
+                            <label>Tu Empresa </label>
                         </div>
                         <div class="inputBox">    
                             <input list="cars" name="soporte" id="soporte" >
@@ -362,14 +362,15 @@
                                 </datalist>   
                         </div>
                         <div class="inputBox">
-                            <input type="number" name="usuarios" id="usuarios" >
-                            <label>Usuarios</label>
+                            <input type="text" name="usuarios" id="usuarios" >
+                            <label>Usuarios *</label>
                         </div>
+                        <p class="textsForm">*(Campos obligatorios)</p>
                         <!-- <div class="inputBox">
                             <textarea requireds name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
                             <label>Mensaje</label>
                         </div> -->
-                        <input  type="submit" class="button" name="btn-enviar" id="btn-enviar" value="Enviar ">
+                        <input  type="submit" class="button" name="btn-enviar" id="btn-enviar" value="Enviar " required>
                         <div class="resultado"></div>
                     </form>
                 </div>
@@ -477,5 +478,6 @@
 
         <!--========== MAIN JS ==========-->
         <script src="assets/js/main.js"></script>
+        <script src="/assets/js/form.js"></script>
     </body>
 </html>
