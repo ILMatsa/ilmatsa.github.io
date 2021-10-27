@@ -631,48 +631,77 @@ img{
 
 }
 
-.contact-form__container form .inputBox{
+.inputBox{
   position: relative;
 }
 
-.contact-form__container form .inputBox input, 
-.contact-form__container form .inputBox textarea{
+.inputBox input, 
+.inputBox textarea{
   border: 0px;
   width:100%;
   background:none;
   color:#666;
-  margin:1.5rem 0;
+  margin:1rem 0;
   padding:.5rem 0;
   border-bottom: solid 1px #aaa5;
   text-transform: none;
 }
 
-.contact-form__container form .inputBox textarea{
+.inputBox textarea{
   resize: none;
-  height: 5rem;
+  height: 4rem;
 }
 
-.contact-form__container form .inputBox label{
+.inputBox label{
   position: absolute;
-  top:1.7rem; 
+  top:-.2rem; 
   left:0;
-  color:#666;
-  transition: .2s linear;
-}
-
-.contact-form__container form .inputBox input:focus ~ label,
-.contact-form__container form .inputBox input:valid ~ label,
-.contact-form__container form .inputBox textarea:focus ~ label{
-  top:-.5rem;
   color:var(--first-color-alt);
   outline: 0 none;
 }
 
-.contact-form__container input:focus,
-.contact-form__container input:valid,
-.contact-form__container input[type]:focus,
-.contact-form__container form .inputBox textarea:focus,
-.contact-form__container form .inputBox textarea[type]:focus{
+
+.inputBox input:valid,
+.inputBox input[type]:focus,
+.inputBox textarea:focus,
+.inputBox textarea[type]:focus{
+  outline: 0 none;
+  font-family:var(--body-font);
+}
+---------
+.inputBox-incorrecto{
+  position: relative;
+}
+.inputBox-incorrecto input, 
+.inputBox-incorrecto textarea{
+  border: 0px;
+  width:100%;
+  background:none;
+  color:#666;
+  margin:1rem 0;
+  padding:.5rem 0;
+  border-bottom: solid 1px #aaa5;
+  text-transform: none;
+}
+
+.inputBox-incorrecto textarea{
+  resize: none;
+  height: 4rem;
+}
+
+.inputBox-incorrecto label{
+  position: absolute;
+  top:-.2rem; 
+  left:0;
+  color:#f00;
+  outline: 0 none;
+}
+
+
+.inputBox-incorrecto input:valid,
+.inputBox-incorrecto input[type]:focus,
+.inputBox-incorrecto textarea:focus,
+.inputBox-incorrecto textarea[type]:focus{
   outline: 0 none;
   font-family:var(--body-font);
 }

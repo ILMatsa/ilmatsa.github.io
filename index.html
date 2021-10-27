@@ -331,7 +331,7 @@
             
             <!--========== CONTACT US - FORM ==========-->
             <section class="contact-form" id="contact-form">
-                <div class="contact-form__container bd-container ">
+                <div id="contact-form__container" class="contact-form__container contact-form__container-incorrecto  bd-container ">
 
                     <div class="img">
                         <img src="/assets/img/contact-verde.svg" alt="">
@@ -339,19 +339,19 @@
                 
                     <form autocomplete="off" class="formulario" action="" onsubmit="return validar();">
                         
-                        <div class="inputBox">
-                            <input type="text" name="nombre" id="nombre"  >
+                        <div class="inputBox inputBox-incorrecto " id="inputBox">
+                            <input type="text" name="nombre" id="nombre"  required>
                             <label>Nombre *</label>
                         </div>
-                        <div class="inputBox" >
+                        <div class="inputBox inputBox-incorrecto " id="inputBox">
                             <input class="email" type="text" name="email" id="email"  >
                             <label>Email *</label>
                         </div>
-                        <div class="inputBox">
+                        <div class="inputBox inputBox-incorrecto " id="inputBox">
                             <input type="text" name="empresa" id="empresa"  >
                             <label>Tu Empresa </label>
                         </div>
-                        <div class="inputBox">    
+                        <div class="inputBox inputBox-incorrecto " id="inputBox">    
                             <input list="cars" name="soporte" id="soporte" >
                             <label>Soporte </label>
                                 <datalist id="cars">
@@ -361,17 +361,22 @@
                                     <option value="Personalizado"/>
                                 </datalist>   
                         </div>
-                        <div class="inputBox">
+                        <div class="inputBox inputBox-incorrecto  " id="inputBox">
                             <input type="text" name="usuarios" id="usuarios" >
                             <label>Usuarios *</label>
                         </div>
-                        <p class="textsForm">*(Campos obligatorios)</p>
-                        <!-- <div class="inputBox">
+                        
+                        <div class="inputBox inputBox-incorrecto " id="inputBox">
                             <textarea requireds name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
                             <label>Mensaje</label>
-                        </div> -->
+                        </div>
+
+                        <p class="textsForm">*(Campos obligatorios)</p>
+
                         <input  type="submit" class="button" name="btn-enviar" id="btn-enviar" value="Enviar " required>
                         <div class="resultado"></div>
+
+                        
                     </form>
                 </div>
             </section>
