@@ -668,43 +668,7 @@ img{
   outline: 0 none;
   font-family:var(--body-font);
 }
----------
-.inputBox-incorrecto{
-  position: relative;
-}
-.inputBox-incorrecto input, 
-.inputBox-incorrecto textarea{
-  border: 0px;
-  width:100%;
-  background:none;
-  color:#666;
-  margin:1rem 0;
-  padding:.5rem 0;
-  border-bottom: solid 1px #aaa5;
-  text-transform: none;
-}
 
-.inputBox-incorrecto textarea{
-  resize: none;
-  height: 4rem;
-}
-
-.inputBox-incorrecto label{
-  position: absolute;
-  top:-.2rem; 
-  left:0;
-  color:#f00;
-  outline: 0 none;
-}
-
-
-.inputBox-incorrecto input:valid,
-.inputBox-incorrecto input[type]:focus,
-.inputBox-incorrecto textarea:focus,
-.inputBox-incorrecto textarea[type]:focus{
-  outline: 0 none;
-  font-family:var(--body-font);
-}
 
 .contact-form__container .button{
   font-family:var(--body-font);
