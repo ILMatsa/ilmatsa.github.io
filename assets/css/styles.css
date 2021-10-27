@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /* --first-color: #069C54; */
-  --first-color: #3586ff;
+  --first-color: #3569a2;
   --first-color-alt: #4aa342;
   --title-color: #393939;
   --text-color: #707070;
@@ -854,12 +854,12 @@ footer .contenedor{
   }
 
   .button:hover{
-    background-color: var(--first-color);
+    background-color: #43b639;
     z-index: 40;
   }
 
   .button2:hover{
-    background-color: var(--first-color-alt);
+    background-color: #2078fb;
     z-index: 20;
   }
 
