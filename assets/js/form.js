@@ -10,6 +10,7 @@ function validar(){
 
     if (nombre === "" ||email === "" ||usuarios === ""){
         alert("POR FAVOR, COMPLETE LOS CAMPOS OBLIGATORIOS");
+        
         return false;        
     }
     else if (nombre.lengyh > 35){  //Si la cantidad de caracteres es menos a 35...
