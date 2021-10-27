@@ -1,6 +1,3 @@
-
-
-
 function validar(){
     var nombre, email, usuarios, expresiones;
     nombre = document.getElementById("nombre").value;       //El valor que esta en ese campo se va a aguardar en la variable nombre
