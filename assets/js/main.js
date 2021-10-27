@@ -91,22 +91,36 @@ window.addEventListener('scroll', scrollTop)
 // })
 
 /*==================== SCROLL REVEAL ANIMATION ====================*/
+// const sr = ScrollReveal({
+//     origin: 'top',
+//     distance: '5px',
+//     duration: 1000,
+//     // reset: true
+// });
+
+// sr.reveal(`.home__data, .home__img,
+//             .about__data, .about__img,
+//             .services__content,.soportes__content,
+//             .app__data, .app__img, .soportes_content,
+//             .contact__data, .contact__button, .contact-form__container,
+//             .footer__content`, {
+//     interval: 100
+// })
+
+/*==================== SCROLL REVEAL ANIMATION ====================*/
 const sr = ScrollReveal({
-    origin: 'top',
-    distance: '5px',
-    duration: 1000,
-    reset: true
+    distance: '20px',
+    duration: 1100,
+    // reset: true
 });
 
 sr.reveal(`.home__data, .home__img,
-            .about__data, .about__img,
+            .about__img, .about__data, 
             .services__content,.soportes__content,
-            .app__data, .app__img, .soportes_content,
+            .menu__content, .soportes_content,
             .contact__data, .contact__button, .contact-form__container,
             .footer__content`, {
     interval: 100
 })
-
-
 
 
